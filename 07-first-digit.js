@@ -12,3 +12,9 @@
  * solution(inputString) = '0'.
  */
 const firstDigit = (inputString) => inputString.match(/\d/)[0];
+
+/**
+ * 14 => 4
+ * T07 = 4
+ * O(n) = 1  
+ */

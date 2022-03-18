@@ -12,3 +12,11 @@ const knapsackLight = (value1, weight1, value2, weight2, maxW) =>
     maxW >= weight2 && value2,
     maxW >= weight1 + weight2 && value1
   );
+  /**
+   * 10 => 1
+   * 11 => 5
+   * 12 => 5
+   * 13 => 7
+   * T08 = 1 + 5 + 5 + 7 = 18
+   * O(n) = 1
+   */
